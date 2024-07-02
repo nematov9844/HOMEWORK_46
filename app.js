@@ -91,8 +91,10 @@ let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 
 // 7. array ichidagi birinchi va oxirgi sonlar o'rtasidagi farqni toping farq har doim musbat son chiqishi kerak
-
+function getarray5(array){
 let arrayFirst = array[0];
 let arrayLast = array[array.length - 1];
 let arrayRes = Math.abs(arrayFirst - arrayLast);
 console.log(arrayRes);
+}
+getarray5(array);
